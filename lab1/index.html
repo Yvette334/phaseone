@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="../lab2/favorites.js"></script>
-    <script src="../lab1/favorite.html"></script>
 </head>
 <body class="bg-gray-300">
     <nav class="sticky top-0 z-50 h-16 w-full border-b bg-white">
@@ -24,7 +23,8 @@
                 </div>
                 <!--Favorite button  -->
                   <div class="flex items-center gap-2 sm:gap-4">
-                    <a href="favorite.html"><button id="favorites-btn" class="relative p-2 rounded-lg hover:bg-accent">
+                    <!-- Link to favorite.html from lab2 folder -->
+                    <a href="../lab2/favorite.html"><button id="favorites-btn" class="relative p-2 rounded-lg hover:bg-accent">
                         <i class="fa-solid fa-heart"></i>
                         <span id="favorites-badge" class="absolute -top-1 -right-1 h-5 w-5 bg-primary text-xs rounded-full flex items-center justify-center text-">0</span>
                     </button></a>
@@ -48,7 +48,7 @@
                     <div class="flex flex-col sm:flex-row gap-3 mt-2 sm:mt-4 max-w-xl mx-auto lg:mx-0 w-full">
                         <div class="relative flex-1">
                             <i class="fa-solid fa-search absolute left-3 top-1/2 -translate-y-1/2 "></i>
-                            <input type="text" id="inputsearch" placeholder="Search for books, authors, genres..." class="w-full pl-10 py-3 rounded-lg border bg-white">
+                            <input type="text" id="inputsearch" placeholder="Search the book by title" class="w-full pl-10 py-3 rounded-lg border bg-white">
                         </div>
                         <button id="Search-btn" class="sm:w-auto w-full px-6 py-3  border-black hover:shadow-2xl border  rounded-lg">Search</button>
                     </div>
@@ -227,6 +227,5 @@
             <p class="text-center ">© 2025 Book Explorer. All rights reserved.</p>
         </div>
     </footer>
-    <script src="favorites.js"></script>
 </body>
 </html>
