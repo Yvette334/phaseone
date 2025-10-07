@@ -16,21 +16,20 @@
                     <span class="font-medium">Book Explorer</span>
                 </div>
 
-                <div class="md:flex items-center gap-6">
-                    <a href="#" class="hover:text-amber-600">Home</a>
-                    <a href="#" class="hover:text-amber-600 ">Browse</a>
-                    <a href="#" class="hover:text-amber-600">Categories</a>
-                    <a href="#" class="hover:text-amber-600">About</a>
+                    <div class="flex items-center gap-2 sm:gap-4">
+                    <a href="#home" class="hover:text-amber-600">Home</a>
+                    <a href="#browse" class="hover:text-amber-600 ">Browse</a>
+                    <a href="#footer" class="hover:text-amber-600">Help</a>
                 </div>
 
                 <div class="flex items-center gap-2 sm:gap-4">
                     <!-- Favorites Button -->
                     <button id="favorites-btn" class="relative p-2 rounded-lg hover:bg-accent">
                         <i class="fa-solid fa-heart"></i>
-                        <span id="favorites-badge" class="absolute -top-1 -right-1 h-5 w-5 bg-primary text-xs rounded-full flex items-center justify-center text-">0</span>
+                        <span id="favorites-badge" class="absolute -top-1 -right-1 h-5 w-5  text-xs rounded-full flex items-center justify-center text-">0</span>
                     </button>
                     
-                    <button class="sm:inline-flex px-4 py-2 bg-primary text-black rounded-lg">Sign In</button>
+                    <button class="sm:inline-flex px-4 py-2  text-black rounded-lg">Sign In</button>
                 </div>
             </div>
         </div>
@@ -40,6 +39,7 @@
         
         <div id="favorites-container" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         </div>
+        <a href="index.html"><button id="" class="sm:w-auto w-full px-6 py-3 pl-10  border-black hover:shadow-2xl border  rounded-lg">Back</button></a>
         <div id="empty-favorites" class="text-center py-12 hidden">
             <i class="fas fa-heart-broken text-6xl text-gray-400 mb-4"></i>
             <h2 class="text-2xl font-semibold mb-2">No favorite books yet</h2>
@@ -50,7 +50,7 @@
         </div>
     </main>
 
-     <footer class="w-full border-t bg-muted/40 mt-auto">
+     <footer id="footer" class="w-full border-t  mt-auto">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Brand -->
@@ -64,14 +64,12 @@
                     </p>
                 </div>
 
-                <!-- Quick Links -->
                 <div class="space-y-4">
                     <h4 class="font-medium">Quick Links</h4>
                     <ul class="space-y-2">
-                        <li><a href="#" class=" ">Home</a></li>
-                        <li><a href="#" class=" ">Browse Books</a></li>
-                        <li><a href="#" class=" ">Categories</a></li>
-                        <li><a href="#" class=" ">About Us</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#browse">Browse Books</a></li>
+                        <li><a href="#footer">About Us</a></li>
                     </ul>
                 </div>
 
@@ -79,21 +77,21 @@
                 <div class="space-y-4">
                     <h4 class="font-medium">Follow Us</h4>
                     <div class="flex items-center gap-4">
-                        <a href="#" class=" ">
+                        <a href="https://www.facebook.com/OpenLibrary.org/" class=" ">
                             <i class="fa-brands fa-facebook text-xl"></i>
                         </a>
-                        <a href="#" class=" ">
+                        <a href="https://x.com/OpenLibrary" >
                             <i class="fa-brands fa-twitter text-xl"></i>
                         </a>
-                        <a href="#" class=" ">
-                            <i class="fa-brands fa-instagram text-xl"></i>
+                        <a href="https://github.com/internetarchive/openlibrary" class=" ">
+                            <i class="fa-brands fa-github text-xl"></i>
                         </a>
                     </div>
                 </div>
             </div>
 
             <!-- Copyright -->
-            <div class="border-t border-border my-6 sm:my-8"></div>
+            <div class="my-6 sm:my-8"></div>
             <p class="text-center ">© 2025 Book Explorer. All rights reserved.</p>
         </div>
     </footer>
