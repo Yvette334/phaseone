@@ -6,8 +6,6 @@
     <title>My Favorite Books</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="../lab1/index.html" ></script>
-    <script src="../lab2/favorites.js"></script>
 </head>
 <body class="bg-gray-300">
     <nav class="sticky top-0 z-50 h-16 w-full border-b bg-white">
@@ -18,20 +16,21 @@
                     <span class="font-medium">Book Explorer</span>
                 </div>
 
-                <div class="flex items-center gap-2 sm:gap-4">
-                    <a href="#home" class="hover:text-amber-600">Home</a>
-                    <a href="#browse" class="hover:text-amber-600 ">Browse</a>
-                    <a href="#footer" class="hover:text-amber-600">Help</a>
+                <div class="md:flex items-center gap-6">
+                    <a href="#" class="hover:text-amber-600">Home</a>
+                    <a href="#" class="hover:text-amber-600 ">Browse</a>
+                    <a href="#" class="hover:text-amber-600">Categories</a>
+                    <a href="#" class="hover:text-amber-600">About</a>
                 </div>
 
                 <div class="flex items-center gap-2 sm:gap-4">
                     <!-- Favorites Button -->
                     <button id="favorites-btn" class="relative p-2 rounded-lg hover:bg-accent">
                         <i class="fa-solid fa-heart"></i>
-                        <span id="favorites-badge" class="absolute -top-1 -right-1 h-5 w-5  text-xs rounded-full flex items-center justify-center text-">0</span>
+                        <span id="favorites-badge" class="absolute -top-1 -right-1 h-5 w-5 bg-primary text-xs rounded-full flex items-center justify-center text-">0</span>
                     </button>
                     
-                    <button class="sm:inline-flex px-4 py-2  text-black rounded-lg">Sign In</button>
+                    <button class="sm:inline-flex px-4 py-2 bg-primary text-black rounded-lg">Sign In</button>
                 </div>
             </div>
         </div>
