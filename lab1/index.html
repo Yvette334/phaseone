@@ -26,7 +26,7 @@
                     <!-- Link to favorite.html from lab2 folder -->
                     <a href="../lab2/favorite.html"><button id="favorites-btn" class="relative p-2 rounded-lg hover:bg-accent">
                         <i class="fa-solid fa-heart"></i>
-                        <span id="favorites-badge" class="absolute -top-1 -right-1 h-5 w-5 bg-primary text-xs rounded-full flex items-center justify-center text-">0</span>
+                        <span id="favorites-badge" class="absolute -top-1 -right-1 h-5 w-5 bg-primary text-xs rounded-full flex items-center justify-center">0</span>
                     </button></a>
                     
                     <button class="sm:inline-flex px-4 py-2 bg-primary text-black rounded-lg">Sign In</button>
@@ -66,126 +66,13 @@
             <p class="">Discover our most loved books across all over the world</p>
         </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
-            
-            <!-- Book Card 1 -->
-            <div class="h-full flex flex-col border border-border rounded-lg hover:shadow-lg">
-                <div class="p-0">
-                    <div class="relative bg-white">
-                        <img src="images/1.jpg" alt="Jane Eyre" class="w-full h-full ">
-                        <button class="absolute top-2 left-2 p-2 rounded-full bg-white hover:bg-white -all hover:scale-110 favorite-btn" data-book-id="1">
-                            <i class="far fa-heart text-gray-600"></i>
-                        </button>
-                    </div>
-                </div>
-                <div class="flex-1 p-4">
-                    <h3 class="text-lg line-clamp-2 mb-2">Jane Eyre</h3>
-                    <p class=" mb-3">Charlotte Brontë</p>
-                </div>
-            </div>
-
-            <!-- Book Card 2 -->
-            <div class="  h-full flex flex-col border border-border rounded-lg   hover:shadow-lg">
-                <div class="p-0">
-                    <div class="relative">
-                        <img src="images/2.jpg" alt="Don Quixote" class="w-full h-full ">
-                        <button class="absolute top-2 left-2 p-2 rounded-full bg-white hover:bg-white  hover:scale-110 favorite-btn" data-book-id="2">
-                            <i class="far fa-heart text-gray-600"></i>
-                        </button>
-                    </div>
-                </div>
-                <div class="flex-1 p-4">
-                    <h3 class="text-lg line-clamp-2 mb-2">Don Quixote</h3>
-                    <p class=" mb-3">Miguel de Cervantes</p>
-                </div>
-            </div>
-
-            <!-- Book Card 3 -->
-            <div class="  h-full flex flex-col border border-border rounded-lg   hover:shadow-lg">
-                <div class="p-0">
-                    <div class="relative    ">
-                        <img src="images/2.jpg" alt="Don Quixote" class="w-full h-full ">
-                        <button class="absolute top-2 left-2 p-2 rounded-full bg-white hover:bg-white  hover:scale-110 favorite-btn" data-book-id="3">
-                            <i class="far fa-heart text-gray-600"></i>
-                        </button>
-                    </div>
-                </div>
-                <div class="flex-1 p-4">
-                    <h3 class="text-lg line-clamp-2 mb-2">Don Quixote</h3>
-                    <p class=" mb-3">Miguel de Cervantes</p>
-                </div>
-            </div>
-
-            <!-- Book Card 4 -->
-            <div class="  h-full flex flex-col border border-border rounded-lg   hover:shadow-lg">
-                <div class="p-0">
-                    <div class="relative    ">
-                        <img src="images/3.jpg" alt="A Tale of Two Cities" class="w-full h-full ">
-                        <button class="absolute top-2 left-2 p-2 rounded-full bg-white hover:bg-white  hover:scale-110 favorite-btn" data-book-id="4">
-                            <i class="far fa-heart text-gray-600"></i>
-                        </button>
-                    </div>
-                </div>
-                <div class="flex-1 p-4">
-                    <h3 class="text-lg line-clamp-2 mb-2">A Tale of Two Cities</h3>
-                    <p class=" mb-3">Charles Dickens</p>
-                </div>
-            </div>
-
-            <!-- Book Card 5 -->
-            <div class="  h-full flex flex-col border border-border rounded-lg   hover:shadow-lg">
-                <div class="p-0">
-                    <div class="relative    ">
-                        <img src="images/2.jpg" alt="Don Quixote" class="w-full h-full ">
-                        <button class="absolute top-2 left-2 p-2 rounded-full bg-white hover:bg-white  hover:scale-110 favorite-btn" data-book-id="5">
-                            <i class="far fa-heart text-gray-600"></i>
-                        </button>
-                    </div>
-                </div>
-                <div class="flex-1 p-4">
-                    <h3 class="text-lg line-clamp-2 mb-2">Don Quixote</h3>
-                    <p class=" mb-3">Miguel de Cervantes</p>
-                </div>
-            </div>
-
-            <!-- Book Card 6 -->
-            <div class="  h-full flex flex-col border border-border rounded-lg   hover:shadow-lg">
-                <div class="p-0">
-                    <div class="relative   ">
-                        <img src="images/5.jpg" alt="Crime and Punishment" class="w-full h-full ">
-                        <button class="absolute top-2 left-2 p-2 rounded-full bg-white hover:bg-white  hover:scale-110 favorite-btn" data-book-id="6">
-                            <i class="far fa-heart text-gray-600"></i>
-                        </button>
-                    </div>
-                </div>
-                <div class="flex-1 p-4">
-                    <h3 class="text-lg line-clamp-2 mb-2">Crime and Punishment</h3>
-                    <p class=" mb-3">Fyodor Dostoevsky</p>
-                </div>
-            </div>
-
-            <!-- Book Card 7 -->
-            <div class="  h-full flex flex-col border border-border rounded-lg   hover:shadow-lg">
-                <div class="p-0">
-                    <div class="relative    ">
-                        <img src="images/1.jpg" alt="Jane Eyre" class="w-full h-full ">
-                        <button class="absolute top-2 left-2 p-2 rounded-full bg-white hover:bg-white  hover:scale-110 favorite-btn" data-book-id="7">
-                            <i class="far fa-heart text-gray-600"></i>
-                        </button>
-                    </div>
-                </div>
-                <div class="flex-1 p-4">
-                    <h3 class="text-lg line-clamp-2 mb-2">Jane Eyre</h3>
-                    <p class="mb-3">Charlotte Brontë</p>
-                </div>
-            </div>
+        <div id="books-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
 
         </div>
     </main>
      <footer id="footer" class="w-full border-t  mt-auto">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Brand -->
+            <div  class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="space-y-4">
                     <div class="flex items-center gap-2">
                         <i class="fa-solid fa-book"></i>
@@ -205,7 +92,6 @@
                     </ul>
                 </div>
 
-                <!-- Social -->
                 <div class="space-y-4">
                     <h4 class="font-medium">Follow Us</h4>
                     <div class="flex items-center gap-4">
@@ -222,7 +108,6 @@
                 </div>
             </div>
 
-            <!-- Copyright -->
             <div class="my-6 sm:my-8"></div>
             <p class="text-center ">© 2025 Book Explorer. All rights reserved.</p>
         </div>
