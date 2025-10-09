@@ -10,11 +10,11 @@ function updateFavoritesBadge() {
 }
 
 function toggleFavorite(bookId, heartIcon, bookData = null) {
-  console.log("[v0] toggleFavorite called with:", { bookId, heartIcon, bookData })
+  console.log("toggleFavorite called with:", { bookId, heartIcon, bookData })
 
   const index = favoriteBooks.findIndex((book) => book.id === bookId)
-  console.log("[v0] Current favorites:", favoriteBooks)
-  console.log("[v0] Book index in favorites:", index)
+  console.log("Current favorites:", favoriteBooks)
+  console.log(" Book index in favorites:", index)
 
   if (index === -1) {
     // Add to favorites - store complete book data
@@ -25,18 +25,18 @@ function toggleFavorite(bookId, heartIcon, bookData = null) {
         author: bookData.author,
         image: bookData.image,
       })
-      console.log("[v0] Added to favorites")
+      console.log("Added to favorites")
     }
     heartIcon.classList.remove("far", "text-gray-600")
     heartIcon.classList.add("fas", "text-red-500")
-    console.log("[v0] Heart icon classes after add:", heartIcon.className)
+    console.log(" Heart icon classes after add:", heartIcon.className)
   } else {
     // Remove from favorites
     favoriteBooks.splice(index, 1)
-    console.log("[v0] Removed from favorites")
+    console.log("Removed from favorites")
     heartIcon.classList.remove("fas", "text-red-500")
     heartIcon.classList.add("far", "text-gray-600")
-    console.log("[v0] Heart icon classes after remove:", heartIcon.className)
+    console.log("Heart icon classes after remove:", heartIcon.className)
   }
 
   // Save to localStorage
