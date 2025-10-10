@@ -1,8 +1,8 @@
-# 📚 Book Explorer
+#  Book Explorer
 
 A modern, responsive web application for discovering and managing your favorite books using the Open Library API.
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 phaseone/
@@ -15,7 +15,7 @@ phaseone/
     └── fetchBooks.js       # Open Library API integration
 ```
 
-## ✨ Features
+##  Features
 
 - **🔍 Real-time Search**: Find books using Open Library API
 - **❤️ Favorites System**: Add/remove books with heart icons
@@ -24,13 +24,13 @@ phaseone/
 - **🎨 Modern UI**: Clean interface with Tailwind CSS
 - **⚡ Fast Loading**: No backend required - pure frontend
 
-## 🚀 Quick Start
+##  Quick Start
 ### Option 2: Run Locally
 1. Clone this repository
 2. Open in your web browser
 3. That's it! No installation needed
 
-## 💡 How to Use
+##  How to Use
 
 ### Searching for Books
 1. Type any book title in the search bar
@@ -43,7 +43,7 @@ phaseone/
 - View all favorites: [Favorites Page]
 - Click again to remove from favorites
 
-## 🛠️ Built With
+##  Built With
 
 - **HTML5** - Page structure
 - **CSS3** - Styling with Tailwind CSS
@@ -52,7 +52,7 @@ phaseone/
 - **Font Awesome** - Beautiful icons
 - **GitHub Pages** - Free hosting
 
-## 📖 What I Learned
+##  What I was used
 
 This project helped me master:
 - **Async JavaScript** with API calls
@@ -62,7 +62,7 @@ This project helped me master:
 - **Responsive Design** principles
 - **Git & GitHub** for version control
 
-## 🔧 Technical Details
+##  Technical Details
 
 ### API Integration
 ```javascript
@@ -79,29 +79,29 @@ async function fetchBooks(search) {
 - Real-time UI updates
 - Cross-page synchronization
 
-## 🌟 Project Highlights
+##  Project Highlights
 
 - **No Backend Required** - Pure frontend application
 - **Fast Deployment** - Hosted on GitHub Pages
 - **Zero Dependencies** - No npm packages needed
 - **Cross-Browser** - Works on all modern browsers
 
-## 📱 Browser Support
+##  Browser Support
 
 - ✅ Chrome
 - ✅ Firefox
 - ✅ Safari
 - ✅ Edge
 
-## 🤝 Contributing
+##  Contributing
 
 Feel free to:
 - Report bugs
 - Suggest features
 - Fork and enhance
 - Share with others
-- 
-## 🙏 Acknowledgments
+   
+##  Acknowledgments
 
 - [Open Library](https://openlibrary.org/) for free book data
 - [Tailwind CSS](https://tailwindcss.com/) for amazing styling
